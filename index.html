@@ -25,16 +25,16 @@
 						<a href="#" class="nav-link">Regulamin</a>
 					</li>
 					<li class="nqv-item">
-						<a href="#" class="nav-link">Spotkania</a>
+						<a href="#writer" class="nav-link">Spotkania</a>
 					</li>
 					<li class="nqv-item">
-						<a href="#" class="nav-link">Wydabrzenia</a>
+						<a href="#" class="nav-link">Wydarzenia</a>
 					</li>
 					<li class="nqv-item">
-						<a href="#" class="nav-link">Księgozbiór</a>
+						<a href="#ksiegozbior" class="nav-link">Księgozbiór</a>
 					</li>
 					<li class="nqv-item">
-						<a href="#" class="nav-link">Kontakt</a>
+						<a href="#kontakt" class="nav-link">Kontakt</a>
 					</li>
 				</ul>
 			</div>
@@ -43,37 +43,156 @@
 
 	<div class="jumbotron jumbotron-fluid text-white text-center top">
 		<div class="container">
-			<h1 class="text-uppercase top-header">Możesz
-				wypożyczyć <span class="text-info">dowolną ksiażkę</span> tylko u nas
+			<h1 class="text-uppercase top-header">Możesz wypożyczyć
+				<span class="text-info">dowolną ksiażkę</span> tylko u nas
 			</h1>
-			<p class="top-text text-primary">Posiadamy książki z gatunku: melodramat, s-f, fantasy, thiller oraz wiele innych</p>
+			<p class="top-text text-white">Posiadamy książki z gatunku: melodramat, s-f, fantasy, thiller oraz wiele innych</p>
 			<button class="btn btn-success text-white top-button">Więcej książek</button>
 		</div>
 	</div>
 
-	<!-- <div class="container py-5">
+	<section class="our-writer" id="spotkania">
+		<h2 class="text-uppercase text-center">Spotkania z naszymi twórcami</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md text-center">
+					<img src="images/author-1.jpeg" alt="autor-1" class="img-fluid rounded">
+					<h3 class="text-uppercase">Wisława Szymborska</h3>
 
-		<div class="carousel slide" id="slider" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/top-bg.jpeg" class="d-block" alt="slide 1">
 				</div>
-				<div class="carousel-item">
-					<img src="images/top-bg-2.jpeg" class="d-block" alt="slide 1">
+				<div class="col-md text-center">
+					<img src="images/author-2.jpeg" alt="autor-2" class="img-fluid rounded">
+					<h3 class="text-uppercase">Bolesław Leśmian</h3>
+
 				</div>
-				<div class="carousel-item">
-					<img src="images/top-bg-2.jpeg" class="d-block" alt="slide 1">
+				<div class="col-md text-center">
+					<img src="images/author-3.jpeg" alt="autor-3" class="img-fluid rounded">
+					<h3 class="text-uppercase">Maria Pawlikowska-Jasnorzewska</h3>
+
 				</div>
 			</div>
-			<a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon bg-success"></span>
-			</a>
-			<a href="#slider" class="carousel-control-next" role="button" data-slide="next">
-				<span class="carousel-control-next-icon bg-success"></span>
-			</a>
+			<h4 class="text-uppercase text-center mt-4 text-warning">Spotkania odbywają się w każdy czwartek o godzinie
+				<time>19.30</time>
+			</h4>
 		</div>
-	</div> -->
+	</section>
 
+	<section class="our-books" id="ksiegozbior">
+		<h2 class="text-uppercase text-center">Biblioteczne pozycje</h2>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container text-center text-uppercase">
+				<span>Chcesz więdzieć więcej?</span>
+				<button class="btn btn-info">Kliknij tutaj!</button>
+			</div>
+
+		</div>
+		<div class="container col-md-2">
+			<div class="carousel slide" id="slider" data-ride="carousel">
+				<div class="carousel-inner text-center">
+					<div class="carousel-item">
+						<img src="images/book1.jpeg" class="d-block" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="images/book2.jpg" class="d-block" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="images/book3.jpg" class="d-block" alt="">
+					</div>
+					<div class="carousel-item active">
+						<img src="images/book4.jpeg" class="d-block" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="images/book5.jpeg" class="d-block" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="images/book6.jpg" class="d-block" alt="">
+					</div>
+				</div>
+				<a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon bg-success"></span>
+				</a>
+				<a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon bg-success"></span>
+				</a>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="write-to-us" id="kontakt">
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="write-to-us-left">
+						<h2 class="text-uppercase write-to-us-header">Skontaktuj się z nami</h2>
+						<form action="">
+							<label for="name" class="form-control-label">Imie i nazwisko</label>
+							<input type="text" id="name" class="form-control">
+							<label for="email" class="form-control-label">E-mail</label>
+							<input type="email" id="email" class="form-control">
+							<label for="msg-title" class="form-control-label">Tytuł wiadomości</label>
+							<input type="text" id="msg-title" class="form-control">
+							<label for="message" class="form-control-label">Wiadomość</label>
+							<textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+							<button class="btn btn-success">Wyślij wiadomość</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8 d-flex">
+					<img class="align-self-endimg-fluid img-fluid" src="images/Email-670x335.jpg" alt="Budowlaniec">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="text-warning bg-success site-footer mt-4">
+		<div class="container pt-5">
+			<h4>Biblioteka Publiczna w Kielcach</h4>
+
+			<div class="row">
+
+				<div class="col-md-6 footer-first-col">
+					<ul class="list-unstyled">
+						<li>
+							<i class="fa fa-street-view" aria-hidden="true"></i>
+							</i>ul. Kochanowskiego 13B, KIELCE
+						</li>
+						<li>
+							<i class="fa fa-phone text-warning" aria-hidden="true"></i>888-223-111
+						</li>
+						<li>
+							<i class="fa fa-clock-o text-warning" aria-hidden="true"></i>Pn.-Pt. 8:00 - 16:00
+						</li>
+						<li>
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>cezary@biblioteka-kielce.pl
+						</li>
+						<li>
+							<i class="fa fa-credit-card-alt" aria-hidden="true"></i>cBank z.o.o:  0000 1111 2222 3333 4444 5555 6666
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 text-center footer-second-col">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-google"></a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+
+	<section class="text-center copyright text-white bg-primary">
+		<div class="container pt-5">
+			&copy; Copyright 2018
+			<span class="text-warning">CEZARY TWORZEWSKI</span>. Wszelkie prawa zastrzeżone
+			<span class="mt-2 d-block">Designed by Cezary Tworzewski</span>
+		</div>
+	</section>
 	<script src="js/jquery-3.2.1.slim.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
